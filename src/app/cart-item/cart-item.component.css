@@ -1,0 +1,17 @@
+.content{
+    width: fit-content;
+    display: flex;
+    gap: 10%;
+}
+.container{
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+img {
+    display: block;
+    max-width:100px;
+    width: 100px;
+    height: auto;
+  }

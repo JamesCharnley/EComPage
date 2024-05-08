@@ -1,0 +1,10 @@
+
+
+<div class="drop-down">
+    <button class="drop-btn">My Cart ({{cartItems.length}})
+      
+    </button>
+    <div class="drop-down-content">
+        <app-cart-item *ngFor="let product of cartItems" [item]="product"></app-cart-item>
+    </div>
+  </div>
